@@ -48,7 +48,7 @@ To search from packages, use the [Python Package Index (PyPI) webpage](https://p
 
 If you do not have the rights to install globaly packages, you can either use environments, or install packages only for you:
 ```
-$ pip3 install scikit-lear --user
+$ pip3 install scikit-learn --user
 ```
 The packages will be then in `~/Library/Python/3.12/lib/python/site-packages/` 
 
