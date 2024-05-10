@@ -46,7 +46,13 @@ $ pip3 install numpy scipy matplotlib astropy
 ```
 To search from packages, use the [Python Package Index (PyPI) webpage](https://pypi.org/): it provides the command line to install packages using `pip`. 
 
-> Note that `pip` points to the 2.7 version on a Mac, it is important to use `pip3` to make sure it points to the Framework version you installed! in cas of doubt, check with `which pip3` 
+If you do not have the rights to install globaly packages, you can either use environments, or install packages only for you:
+```
+$ pip3 install scikit-lear --user
+```
+The packages will be then in `~/Library/Python/3.12/lib/python/site-packages/` 
+
+> Note that `pip` points to the 2.7 version on a Mac, it is important to use `pip3` to make sure it points to the Framework version you installed! in case of doubt, check with `which pip3`, and fix you `.zprofile`.
 
 ## Installing and running IPython, Jupyter Notebooks
 
