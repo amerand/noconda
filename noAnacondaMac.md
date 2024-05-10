@@ -2,25 +2,6 @@
 
 Antoine Mérand ([amerand@eso.org](mailto:amerand@eso.org)) - May 10, 2024
 
-## For the impatients
-- Download and run the installer from [Python.org](https://www.python.org/downloads/)
-- if you do not need environments, open a terminal, and type (add the packaged you need):
-```
-$ pip3 install numpy scipy matplotlib astropy jupyterlab
-$ jupyter-lab
-```
-- if you use environments, type (add the packaged you need):
-```
-$ python3 -m venv myEnv
-$ source myEnv/bin/activate
-(myEnv) $ pip3 install numpy scipy matplotlib astropy jupyterlab
-(myEnv) $ jupyter-lab
-(myEnv) $ deactivate
-```
-
-
-> make sure you open the terminal after you have installed Python, otherwise you `$PATH` is not prperly update!
-
 ## Install Python from Python.org
 MacOS comes bundled with Python3 located in `/usr/bin/`. This version are perfectly usable, but lags a bit behind: as of this writting, Sonoma 14.4.1 (which came out early 2024) ships with Python 3.9.6 which was release in mid-2021, whereas the latest available version of Python is 3.12 which is newer than MacOS!
 
