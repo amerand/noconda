@@ -11,12 +11,12 @@ There is a [long version](noAnacondaMac.md), the tldr version for the impatients
 - Open a terminal
 > make sure you open the terminal after you have installed Python, otherwise you `$PATH` may not be properly up to date! (you can also source your `.zprofile`).
 
-- If you do not need environments, open a terminal, and type (add the packaged you need):
+- If you do not need environments, open a terminal, and type (add the packages you need):
 ```
 $ pip3 install numpy scipy matplotlib astropy jupyterlab
 $ jupyter-lab
 ```
-- If you use environments, type (add the packaged you need):
+- If you use environments, type (add the packages you need):
 ```
 $ python3 -m venv myEnv
 $ source myEnv/bin/activate
