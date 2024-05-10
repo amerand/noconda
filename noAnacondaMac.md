@@ -93,7 +93,7 @@ $ pip3 --disable-pip-version-check list --outdated --format=json | python3 -c "i
 
 Since 3.3, Python includes `venv` as part of its Standard Library. Check out the [documentation](https://docs.python.org/3/library/venv.html) for extensive explanations. 
 
-To create and activate a virtual environment `myEnv` (which will be stored in the directory `./myEnv` which will created if needed):
+To create and activate a virtual environment `myEnv` (be stored in the directory `./myEnv` which will be created if needed):
 ```
 $ python3 -m venv myEnv
 $ source ./myEnv/bin/activate
